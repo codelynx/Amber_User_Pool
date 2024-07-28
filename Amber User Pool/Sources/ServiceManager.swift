@@ -289,7 +289,7 @@ class ServiceManager {
 		// URL for the Cognito token endpoint
 		
 		// Set up the request
-		var request = URLRequest(url: Self.tokenURL)
+		var request = URLRequest(url: URL(string: Self.tokenURL)!)
 		request.httpMethod = "POST"
 		request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
 				
