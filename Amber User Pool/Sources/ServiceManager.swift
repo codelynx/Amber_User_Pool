@@ -166,16 +166,7 @@ class ServiceManager {
 			return lhs === rhs
 		}
 	}
-	/*
-	let region = "ap-northeast-1"
-	let userPoolID = "ap-northeast-1_7R43qBEk1"
-	let identityPoolID = "ap-northeast-1:41d41301-fcdf-4ef6-8a6e-de24167b8dc5"
-	let bucket = "amber-user-pool-bucket"
-	let appClientID = "2m2u617er4kjig9ar9k0qhnaaq"
-	let tokenURL = URL(string: "https://amber-user-pool.auth.ap-northeast-1.amazoncognito.com/oauth2/token")!
-	let signinRedirectURL = "amber-user-pool-app://auth/callback/signin"
-	let customScheme = "amber-user-pool-app"
-	*/
+
 	static let shared = ServiceManager()
 	private init() {
 	}
