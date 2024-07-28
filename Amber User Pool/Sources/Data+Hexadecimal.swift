@@ -1,0 +1,30 @@
+//
+//	Data+Hexadecimal.swift
+//	Amber User Pool
+//
+//	Created by Kaz Yoshikawa on 2024/07/07.
+//
+
+import Foundation
+
+public extension Data {
+
+	func hexadecimalString(linebreak: Int? = nil) -> String {
+		let n = linebreak ?? self.count
+		return stride(from: 0, to: self.count, by: n).map { base in (0..<n).map { String(format: "%02x", self[base + $0]) }.joined() }.joined(separator: "\r")
+	}
+	init?(hexadecimalString: String) {
+		guard hexadecimalString.filter({ !$0.isWhitespace && !$0.isNewline && !$0.isHexDigit }).count == 0 else { return nil }
+		let hexdigits = hexadecimalString.filter { $0.isHexDigit }.map { UInt8($0.hexDigitValue!) }
+		guard hexdigits.count > 0 && hexdigits.count % 2 == 0 else { return nil }
+		let bytes = stride(from: 0, to: hexdigits.count, by: 2).map { UInt8(hexdigits[$0] * 0x10 + hexdigits[$0 + 1]) }
+		self = Data(bytes)
+	}
+
+}
+
+public extension String {
+	var hexadecimalData: Data? {
+		return Data(hexadecimalString: self)
+	}
+}

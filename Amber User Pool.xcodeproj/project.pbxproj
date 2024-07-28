@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC11442C2C4BA4A0002BB06D /* AccessTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC11442B2C4BA4A0002BB06D /* AccessTestView.swift */; };
+		CC2B4AF22C464EA800E5BE8F /* PopoverButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B4AF12C464EA800E5BE8F /* PopoverButtonView.swift */; };
+		CC2B4AF42C464EDE00E5BE8F /* ObservableValueObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B4AF32C464EDE00E5BE8F /* ObservableValueObject.swift */; };
+		CC5404D02C3A0D3F00D2FEFE /* AWSClientRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = CC5404CF2C3A0D3F00D2FEFE /* AWSClientRuntime */; };
+		CC5404D22C3A0D7700D2FEFE /* AWSCognitoIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = CC5404D12C3A0D7700D2FEFE /* AWSCognitoIdentity */; };
+		CC5404D42C3A0D7700D2FEFE /* AWSCognitoIdentityProvider in Frameworks */ = {isa = PBXBuildFile; productRef = CC5404D32C3A0D7700D2FEFE /* AWSCognitoIdentityProvider */; };
+		CC5404D62C3A5E9700D2FEFE /* AWSS3 in Frameworks */ = {isa = PBXBuildFile; productRef = CC5404D52C3A5E9700D2FEFE /* AWSS3 */; };
+		CC5404DB2C3A7B1A00D2FEFE /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5404DA2C3A7B1A00D2FEFE /* SigninView.swift */; };
+		CC5404DD2C3A7B9700D2FEFE /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5404DC2C3A7B9600D2FEFE /* ServiceManager.swift */; };
+		CC8CCFFF2C3A0CE000F46EE9 /* Amber_User_PoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CCFFE2C3A0CE000F46EE9 /* Amber_User_PoolApp.swift */; };
+		CC8CD0012C3A0CE000F46EE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CD0002C3A0CE000F46EE9 /* ContentView.swift */; };
+		CC8CD0032C3A0CE100F46EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8CD0022C3A0CE100F46EE9 /* Assets.xcassets */; };
+		CC8CD0072C3A0CE100F46EE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8CD0062C3A0CE100F46EE9 /* Preview Assets.xcassets */; };
+		CC8E3DCE2C3B2EAF003E9F36 /* TextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E3DCD2C3B2EAF003E9F36 /* TextContentView.swift */; };
+		CC8E3DD02C3B5995003E9F36 /* String+additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E3DCF2C3B5995003E9F36 /* String+additions.swift */; };
+		CC8E3DD22C3B59D9003E9F36 /* Data+Hexadecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E3DD12C3B59D9003E9F36 /* Data+Hexadecimal.swift */; };
+		CC8E3DD42C3BC2C9003E9F36 /* TextContentSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E3DD32C3BC2C9003E9F36 /* TextContentSplitView.swift */; };
+		CCDB27A02C562CE6009B0D63 /* ServiceManager+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB279F2C562CE6009B0D63 /* ServiceManager+Config.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC11442B2C4BA4A0002BB06D /* AccessTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTestView.swift; sourceTree = "<group>"; };
+		CC11442D2C4C43CD002BB06D /* Amber-User-Pool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Amber-User-Pool-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CC2B4AF12C464EA800E5BE8F /* PopoverButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverButtonView.swift; sourceTree = "<group>"; };
+		CC2B4AF32C464EDE00E5BE8F /* ObservableValueObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableValueObject.swift; sourceTree = "<group>"; };
+		CC5404DA2C3A7B1A00D2FEFE /* SigninView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		CC5404DC2C3A7B9600D2FEFE /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		CC8CCFFB2C3A0CE000F46EE9 /* Amber User Pool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amber User Pool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8CCFFE2C3A0CE000F46EE9 /* Amber_User_PoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amber_User_PoolApp.swift; sourceTree = "<group>"; };
+		CC8CD0002C3A0CE000F46EE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC8CD0022C3A0CE100F46EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC8CD0042C3A0CE100F46EE9 /* Amber_User_Pool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Amber_User_Pool.entitlements; sourceTree = "<group>"; };
+		CC8CD0062C3A0CE100F46EE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC8E3DCD2C3B2EAF003E9F36 /* TextContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContentView.swift; sourceTree = "<group>"; };
+		CC8E3DCF2C3B5995003E9F36 /* String+additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+additions.swift"; sourceTree = "<group>"; };
+		CC8E3DD12C3B59D9003E9F36 /* Data+Hexadecimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Hexadecimal.swift"; sourceTree = "<group>"; };
+		CC8E3DD32C3BC2C9003E9F36 /* TextContentSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContentSplitView.swift; sourceTree = "<group>"; };
+		CCDB279F2C562CE6009B0D63 /* ServiceManager+Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceManager+Config.swift"; sourceTree = "<group>"; };
+		CCDB27A12C563AC9009B0D63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC8CCFF82C3A0CE000F46EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5404D22C3A0D7700D2FEFE /* AWSCognitoIdentity in Frameworks */,
+				CC5404D02C3A0D3F00D2FEFE /* AWSClientRuntime in Frameworks */,
+				CC5404D62C3A5E9700D2FEFE /* AWSS3 in Frameworks */,
+				CC5404D42C3A0D7700D2FEFE /* AWSCognitoIdentityProvider in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC5404CE2C3A0D3F00D2FEFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC5404D92C3A7AFB00D2FEFE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CC11442B2C4BA4A0002BB06D /* AccessTestView.swift */,
+				CC8CCFFE2C3A0CE000F46EE9 /* Amber_User_PoolApp.swift */,
+				CC8CD0002C3A0CE000F46EE9 /* ContentView.swift */,
+				CC8E3DD12C3B59D9003E9F36 /* Data+Hexadecimal.swift */,
+				CC2B4AF32C464EDE00E5BE8F /* ObservableValueObject.swift */,
+				CC2B4AF12C464EA800E5BE8F /* PopoverButtonView.swift */,
+				CC5404DC2C3A7B9600D2FEFE /* ServiceManager.swift */,
+				CCDB279F2C562CE6009B0D63 /* ServiceManager+Config.swift */,
+				CC5404DA2C3A7B1A00D2FEFE /* SigninView.swift */,
+				CC8E3DCF2C3B5995003E9F36 /* String+additions.swift */,
+				CC8E3DD32C3BC2C9003E9F36 /* TextContentSplitView.swift */,
+				CC8E3DCD2C3B2EAF003E9F36 /* TextContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CC8CCFF22C3A0CE000F46EE9 = {
+			isa = PBXGroup;
+			children = (
+				CCDB27A12C563AC9009B0D63 /* README.md */,
+				CC8CCFFD2C3A0CE000F46EE9 /* Amber User Pool */,
+				CC8CCFFC2C3A0CE000F46EE9 /* Products */,
+				CC5404CE2C3A0D3F00D2FEFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC8CCFFC2C3A0CE000F46EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC8CCFFB2C3A0CE000F46EE9 /* Amber User Pool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC8CCFFD2C3A0CE000F46EE9 /* Amber User Pool */ = {
+			isa = PBXGroup;
+			children = (
+				CC11442D2C4C43CD002BB06D /* Amber-User-Pool-Info.plist */,
+				CC5404D92C3A7AFB00D2FEFE /* Sources */,
+				CC8CD0022C3A0CE100F46EE9 /* Assets.xcassets */,
+				CC8CD0042C3A0CE100F46EE9 /* Amber_User_Pool.entitlements */,
+				CC8CD0052C3A0CE100F46EE9 /* Preview Content */,
+			);
+			path = "Amber User Pool";
+			sourceTree = "<group>";
+		};
+		CC8CD0052C3A0CE100F46EE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC8CD0062C3A0CE100F46EE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC8CCFFA2C3A0CE000F46EE9 /* Amber User Pool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC8CD00A2C3A0CE100F46EE9 /* Build configuration list for PBXNativeTarget "Amber User Pool" */;
+			buildPhases = (
+				CC8CCFF72C3A0CE000F46EE9 /* Sources */,
+				CC8CCFF82C3A0CE000F46EE9 /* Frameworks */,
+				CC8CCFF92C3A0CE000F46EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amber User Pool";
+			packageProductDependencies = (
+				CC5404CF2C3A0D3F00D2FEFE /* AWSClientRuntime */,
+				CC5404D12C3A0D7700D2FEFE /* AWSCognitoIdentity */,
+				CC5404D32C3A0D7700D2FEFE /* AWSCognitoIdentityProvider */,
+				CC5404D52C3A5E9700D2FEFE /* AWSS3 */,
+			);
+			productName = "Amber User Pool";
+			productReference = CC8CCFFB2C3A0CE000F46EE9 /* Amber User Pool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC8CCFF32C3A0CE000F46EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CC8CCFFA2C3A0CE000F46EE9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CC8CCFF62C3A0CE000F46EE9 /* Build configuration list for PBXProject "Amber User Pool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC8CCFF22C3A0CE000F46EE9;
+			packageReferences = (
+				CC5404CD2C3A0D1B00D2FEFE /* XCRemoteSwiftPackageReference "aws-sdk-swift" */,
+			);
+			productRefGroup = CC8CCFFC2C3A0CE000F46EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC8CCFFA2C3A0CE000F46EE9 /* Amber User Pool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC8CCFF92C3A0CE000F46EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8CD0072C3A0CE100F46EE9 /* Preview Assets.xcassets in Resources */,
+				CC8CD0032C3A0CE100F46EE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC8CCFF72C3A0CE000F46EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2B4AF22C464EA800E5BE8F /* PopoverButtonView.swift in Sources */,
+				CC5404DB2C3A7B1A00D2FEFE /* SigninView.swift in Sources */,
+				CC8E3DD02C3B5995003E9F36 /* String+additions.swift in Sources */,
+				CCDB27A02C562CE6009B0D63 /* ServiceManager+Config.swift in Sources */,
+				CC8CD0012C3A0CE000F46EE9 /* ContentView.swift in Sources */,
+				CC8E3DCE2C3B2EAF003E9F36 /* TextContentView.swift in Sources */,
+				CC8CCFFF2C3A0CE000F46EE9 /* Amber_User_PoolApp.swift in Sources */,
+				CC5404DD2C3A7B9700D2FEFE /* ServiceManager.swift in Sources */,
+				CC2B4AF42C464EDE00E5BE8F /* ObservableValueObject.swift in Sources */,
+				CC8E3DD42C3BC2C9003E9F36 /* TextContentSplitView.swift in Sources */,
+				CC11442C2C4BA4A0002BB06D /* AccessTestView.swift in Sources */,
+				CC8E3DD22C3B59D9003E9F36 /* Data+Hexadecimal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC8CD0082C3A0CE100F46EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC8CD0092C3A0CE100F46EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CC8CD00B2C3A0CE100F46EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Amber User Pool/Amber_User_Pool.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Amber User Pool/Preview Content\"";
+				DEVELOPMENT_TEAM = 2P97EM4L4N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amber-User-Pool-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electricwoods.Amber-User-Pool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC8CD00C2C3A0CE100F46EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Amber User Pool/Amber_User_Pool.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Amber User Pool/Preview Content\"";
+				DEVELOPMENT_TEAM = 2P97EM4L4N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amber-User-Pool-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electricwoods.Amber-User-Pool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC8CCFF62C3A0CE000F46EE9 /* Build configuration list for PBXProject "Amber User Pool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8CD0082C3A0CE100F46EE9 /* Debug */,
+				CC8CD0092C3A0CE100F46EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC8CD00A2C3A0CE100F46EE9 /* Build configuration list for PBXNativeTarget "Amber User Pool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8CD00B2C3A0CE100F46EE9 /* Debug */,
+				CC8CD00C2C3A0CE100F46EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC5404CD2C3A0D1B00D2FEFE /* XCRemoteSwiftPackageReference "aws-sdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/awslabs/aws-sdk-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.46.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC5404CF2C3A0D3F00D2FEFE /* AWSClientRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC5404CD2C3A0D1B00D2FEFE /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			productName = AWSClientRuntime;
+		};
+		CC5404D12C3A0D7700D2FEFE /* AWSCognitoIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC5404CD2C3A0D1B00D2FEFE /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			productName = AWSCognitoIdentity;
+		};
+		CC5404D32C3A0D7700D2FEFE /* AWSCognitoIdentityProvider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC5404CD2C3A0D1B00D2FEFE /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			productName = AWSCognitoIdentityProvider;
+		};
+		CC5404D52C3A5E9700D2FEFE /* AWSS3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC5404CD2C3A0D1B00D2FEFE /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			productName = AWSS3;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CC8CCFF32C3A0CE000F46EE9 /* Project object */;
+}
